@@ -1,0 +1,161 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: indigo;
+}
+
+nav {
+    background-color: hsl(220, 30%, 90%);
+}
+
+li {
+    list-style-type: none;
+}
+
+.menu {
+    display: flex;
+    margin-left: 8em;
+    font-size: 1rem;
+}
+
+.menu a {
+    color: black;
+    white-space: nowrap;
+}
+
+.right-arrow::after {
+    content: '>';
+    font-weight: bold;
+}
+
+.menu-item {
+    display: inline;
+    position: relative;
+    padding: 0.2em 0.2em;
+    border-radius: 0.3em;
+}
+
+.menu-item + .menu-item {
+    margin-left: 1em;
+}
+
+.menu-item:hover {
+    background-color: hsl(220, 30%, 80%);
+}
+
+.menu-item:hover .submenu{
+    display: block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    background-color: hsl(220, 30%, 90%);
+    padding: 0.2em 0.5em;
+    border: 1px solid hsl(220, 30%, 70%);
+    border-radius: 0.3em;
+}
+
+.hidden {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.submenu-item:hover .subsubmenu {
+    display: block;
+}
+
+.subsubmenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: hsl(220, 30%, 90%);
+    padding: 0.2em 0.5em;
+    border: 1px solid hsl(220, 30%, 70%);
+    border-radius: 0.3em;
+}
+
+.subsubmenu-item:hover .sub3menu {
+    display: block;
+}
+
+.sub3menu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: hsl(220, 30%, 90%);
+    padding: 0.2em 0.5em;
+    border: 1px solid hsl(220, 30%, 70%);
+    border-radius: 0.3em;
+}
+
+ul {
+    padding-inline-start: 0;
+}
+
+.submenu-item {
+    position: relative;
+    padding: 0.2em 0.4em;
+    border-radius: 0.3em;
+}
+
+.subsubmenu-item {
+    position: relative;
+    padding: 0.2em 0.4em;
+    border-radius: 0.3em;
+}
+.sub3menu-item {
+    padding: 0.2em 0.4em;
+    border-radius: 0.3em;
+}
+
+.submenu-item:hover {
+    background-color: hsl(220, 30%, 80%);
+}
+
+.subsubmenu-item:hover {
+    background-color: hsl(220, 30%, 80%);
+}
+
+.sub3menu-item:hover {
+    background-color: hsl(220, 30%, 80%);
+}
+
+.partition {
+    height: 2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.fa-caret-right {
+    font-weight: 600;
+    vertical-align: super;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5em;
+}
