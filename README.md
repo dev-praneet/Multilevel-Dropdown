@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/geeky-amat/social-proof-section-master)
-- [Live Site URL](https://geeky-amat.github.io/social-proof-section-master/)
+- [Solution URL](https://github.com/geeky-amat/Multilevel-Dropdown)
+- [Live Site URL](https://geeky-amat.github.io/Multilevel-Dropdown/)
 
 ## My process
 
