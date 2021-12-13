@@ -8,10 +8,10 @@ html {
 }
 
 body {
-    font-size: 1.4rem;
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
-    background-color: indigo;
+    /* font-size: 1.4rem; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* line-height: 1.6; */
+    /* background-color: indigo; */
 }
 
 nav {
@@ -24,8 +24,10 @@ li {
 
 .menu {
     display: flex;
-    margin-left: 8em;
+    /* margin-left: 8em; */
+    justify-content: space-evenly;
     font-size: 1rem;
+    z-index: 1;
 }
 
 .menu a {
@@ -43,6 +45,7 @@ li {
     position: relative;
     padding: 0.2em 0.2em;
     border-radius: 0.3em;
+    z-index: 1;
 }
 
 .menu-item + .menu-item {
